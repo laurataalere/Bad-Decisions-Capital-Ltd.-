@@ -1,0 +1,7 @@
+{
+  "name": "dpi-takeover-review",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "build:data": "node build.mjs", "test": "node tests.mjs" }
+}
+
