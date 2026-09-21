@@ -1,0 +1,1697 @@
+{
+  "schemaVersion": "1.0",
+  "caseId": "DPI-HT-01",
+  "student": {
+    "id": "pending",
+    "name": "Student certification required"
+  },
+  "evidence": [
+    {
+      "id": "bank",
+      "description": "Bank export August: third-party bank record"
+    },
+    {
+      "id": "contracts",
+      "description": "Contracts, returns and angry customers: signed/accepted customer evidence"
+    },
+    {
+      "id": "crm",
+      "description": "CRM Export Cleaned FINAL: operational revenue ledger"
+    },
+    {
+      "id": "purchases",
+      "description": "Purchases invoices and goods received: supplier invoices and confirmations"
+    },
+    {
+      "id": "warehouse",
+      "description": "Warehouse count: 31 August physical count and disposal evidence"
+    },
+    {
+      "id": "payroll",
+      "description": "Payroll, bonuses and contractors: payroll schedule"
+    },
+    {
+      "id": "assets",
+      "description": "Assets, repairs and leases: asset register and invoices"
+    },
+    {
+      "id": "loans",
+      "description": "Loans, owner card and legal problems: bank/legal evidence"
+    },
+    {
+      "id": "later",
+      "description": "Evidence received after takeover: adjusting external evidence"
+    },
+    {
+      "id": "board",
+      "description": "Board order: evidence hierarchy and reporting basis"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D001",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of NorthStar receipt.",
+      "answer": "NorthStar: €180,000 contract revenue; accepted 12 Feb and cash collected.",
+      "evidence": [
+        "Contracts, returns and angry customers: signed/accepted customer evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D002",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Freedom receipt 1.",
+      "answer": "Freedom: €200,000 revenue; €142,000 collected and €58,000 remains receivable.",
+      "evidence": [
+        "Contracts, returns and angry customers: signed/accepted customer evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D003",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Phoenix receipt.",
+      "answer": "Phoenix: €100,000 completed-event revenue; €70,000 collected and €30,000 receivable.",
+      "evidence": [
+        "Contracts, returns and angry customers: signed/accepted customer evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D004",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Liberty receipt.",
+      "answer": "Liberty: €120,000 delivered revenue; €95,000 collected and €25,000 receivable.",
+      "evidence": [
+        "Contracts, returns and angry customers: signed/accepted customer evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D005",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Opening receivable receipt.",
+      "answer": "€35,000 is collection of opening receivable, not current-period revenue.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D006",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Finally Single web receipts.",
+      "answer": "Finally Single web revenue is €270,000; €250,000 collected and €20,000 platform receivable.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D007",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Never Call Back web receipts.",
+      "answer": "Never Call Back web revenue is €90,000; €37,000 collected, gross receivable €53,000, including €18,000 R-17 written off.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D008",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of New Beginnings deposit.",
+      "answer": "€60,000 New Beginnings receipt is a September-event contract liability.",
+      "evidence": [
+        "Contracts, returns and angry customers: signed/accepted customer evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D009",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Fresh Freedom deposit.",
+      "answer": "€30,000 Fresh Freedom receipt is a September-event contract liability.",
+      "evidence": [
+        "Contracts, returns and angry customers: signed/accepted customer evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D010",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Box supplier payment.",
+      "answer": "€105,000 BoxWorks payment settles purchases; €25,000 supplier payable remains.",
+      "evidence": [
+        "Purchases invoices and goods received: supplier invoices and confirmations",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D011",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Glass supplier payment.",
+      "answer": "€92,000 Glass payment settles purchases; €28,000 supplier payable remains.",
+      "evidence": [
+        "Purchases invoices and goods received: supplier invoices and confirmations",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D012",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Print supplier payment.",
+      "answer": "€81,000 Print payment settles purchases; €14,000 supplier payable remains.",
+      "evidence": [
+        "Purchases invoices and goods received: supplier invoices and confirmations",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D013",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Event supplier payment.",
+      "answer": "€100,000 Event Things payment settles purchases; €59,000 supplier payable remains.",
+      "evidence": [
+        "Purchases invoices and goods received: supplier invoices and confirmations",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D014",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of January payroll.",
+      "answer": "January payroll is included in the €248,000 period expense and €231,000 aggregate paid.",
+      "evidence": [
+        "Payroll, bonuses and contractors: payroll schedule",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D015",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of February payroll.",
+      "answer": "February payroll is included in the €248,000 period expense and €231,000 aggregate paid.",
+      "evidence": [
+        "Payroll, bonuses and contractors: payroll schedule",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D016",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of March payroll.",
+      "answer": "March payroll is included in the €248,000 period expense and €231,000 aggregate paid.",
+      "evidence": [
+        "Payroll, bonuses and contractors: payroll schedule",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D017",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of April payroll.",
+      "answer": "April payroll is included in the €248,000 period expense and €231,000 aggregate paid.",
+      "evidence": [
+        "Payroll, bonuses and contractors: payroll schedule",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D018",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of May payroll.",
+      "answer": "May payroll is included in the €248,000 period expense and €231,000 aggregate paid.",
+      "evidence": [
+        "Payroll, bonuses and contractors: payroll schedule",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D019",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of June payroll.",
+      "answer": "June payroll is included in the €248,000 period expense and €231,000 aggregate paid.",
+      "evidence": [
+        "Payroll, bonuses and contractors: payroll schedule",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D020",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of July payroll.",
+      "answer": "July payroll is included in the €248,000 period expense and €231,000 aggregate paid.",
+      "evidence": [
+        "Payroll, bonuses and contractors: payroll schedule",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D021",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of August payroll.",
+      "answer": "August payroll is included in the €248,000 period expense and €231,000 aggregate paid.",
+      "evidence": [
+        "Payroll, bonuses and contractors: payroll schedule",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D022",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Rent payments.",
+      "answer": "€48,000 rent is operating expense and operating cash outflow.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D023",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Meta and influencer payments.",
+      "answer": "€55,000 Meta, TikTok and influencer spending is marketing expense.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D024",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Software payments.",
+      "answer": "€16,000 software subscriptions are operating expense.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D025",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Utilities payments.",
+      "answer": "€12,000 utilities are operating expense.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D026",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Repair transfer.",
+      "answer": "€10,000 belt, cleaning and calibration restores output; expense as repair.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D027",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Packaging machine payment.",
+      "answer": "€60,000 Pack-O-Matic payment is PPE addition, not repair expense.",
+      "evidence": [
+        "Assets, repairs and leases: asset register and invoices",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D028",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Photo booth payment.",
+      "answer": "€20,000 Regret Photo Booth payment is PPE addition, not marketing expense.",
+      "evidence": [
+        "Assets, repairs and leases: asset register and invoices",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D029",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Loan receipt.",
+      "answer": "€50,000 Baltic Bank advance is financing borrowing, not income.",
+      "evidence": [
+        "Loans, owner card and legal problems: bank/legal evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D030",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Loan repayments.",
+      "answer": "€19,000 bank payment reduces loan principal.",
+      "evidence": [
+        "Loans, owner card and legal problems: bank/legal evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D031",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Interest payments.",
+      "answer": "€10,000 paid interest is cash settlement; total interest expense is €12,000.",
+      "evidence": [
+        "Loans, owner card and legal problems: bank/legal evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D032",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Villa deposit.",
+      "answer": "€70,000 villa reservation is a shareholder distribution.",
+      "evidence": [
+        "Loans, owner card and legal problems: bank/legal evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D033",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Owner card spending.",
+      "answer": "€40,000 owner-card spend is a shareholder distribution.",
+      "evidence": [
+        "Loans, owner card and legal problems: bank/legal evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D034",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Insurance movement.",
+      "answer": "No insurance policy, payment or coverage period is in the supplied evidence; no recognized movement.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D035",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Water-damaged stock.",
+      "answer": "Wet basement stock is not saleable: write down €22,000; disposal cost remains an uncertainty.",
+      "evidence": [
+        "Warehouse count: 31 August physical count and disposal evidence",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D036",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Customer insolvency.",
+      "answer": "R-17 €18,000 is written off because post-period liquidation confirms the 31 August condition.",
+      "evidence": [
+        "Contracts, returns and angry customers: signed/accepted customer evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D037",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Former employee claim.",
+      "answer": "Recognize €25,000 legal provision; counsel says claim is probable and gives best estimate.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D038",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Purchase total.",
+      "answer": "Purchases total €459,000, supported by invoices and goods-received records.",
+      "evidence": [
+        "Purchases invoices and goods received: supplier invoices and confirmations",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D039",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Cash collections total.",
+      "answer": "Customer cash collections total €809,000 current-period revenue collections plus €35,000 opening AR collection; €90,000 deposits are separately liabilities.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D040",
+      "category": "evidence_matching",
+      "reviewTier": "operational",
+      "question": "Resolve the source and treatment of Closing bank balance.",
+      "answer": "Closing cash is €60,000 per bank confirmation and cash-flow roll-forward.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D041",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify September customer deposits.",
+      "answer": "Recognize €90,000 contract liabilities, not August revenue.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Recognize €90,000 contract liabilities, not August revenue.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Recognize €90,000 contract liabilities, not August revenue. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -90000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 90000,
+        "equity": -90000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D042",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify New bank borrowing.",
+      "answer": "Recognize €50,000 borrowing and loan liability.",
+      "evidence": [
+        "Loans, owner card and legal problems: bank/legal evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Recognize €50,000 borrowing and loan liability.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Recognize €50,000 borrowing and loan liability. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 50000,
+        "assets": 50000,
+        "liabilities": 50000,
+        "equity": 0
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D043",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Packaging machine.",
+      "answer": "Capitalize €60,000 packaging machine as PPE.",
+      "evidence": [
+        "Assets, repairs and leases: asset register and invoices",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Capitalize €60,000 packaging machine as PPE.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Capitalize €60,000 packaging machine as PPE. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 0,
+        "assets": 60000,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D044",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Photo booth.",
+      "answer": "Capitalize €20,000 photo booth as PPE.",
+      "evidence": [
+        "Assets, repairs and leases: asset register and invoices",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Capitalize €20,000 photo booth as PPE.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Capitalize €20,000 photo booth as PPE. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 0,
+        "assets": 20000,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D045",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Machine belt and calibration.",
+      "answer": "Expense €10,000 belt and calibration as repairs.",
+      "evidence": [
+        "Assets, repairs and leases: asset register and invoices",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Expense €10,000 belt and calibration as repairs.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Expense €10,000 belt and calibration as repairs. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -10000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": -10000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D046",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Owner villa deposit.",
+      "answer": "Classify €70,000 villa deposit as shareholder distribution.",
+      "evidence": [
+        "Loans, owner card and legal problems: bank/legal evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Classify €70,000 villa deposit as shareholder distribution.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Classify €70,000 villa deposit as shareholder distribution. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": -70000,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": -70000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D047",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Owner card spending.",
+      "answer": "Classify €40,000 owner-card spend as shareholder distribution.",
+      "evidence": [
+        "Loans, owner card and legal problems: bank/legal evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Classify €40,000 owner-card spend as shareholder distribution.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Classify €40,000 owner-card spend as shareholder distribution. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": -40000,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": -40000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D048",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Physical product materials consumed.",
+      "answer": "Recognize €405,000 physical-product materials consumed in cost of sales.",
+      "evidence": [
+        "Warehouse count: 31 August physical count and disposal evidence",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Recognize €405,000 physical-product materials consumed in cost of sales.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Recognize €405,000 physical-product materials consumed in cost of sales. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -405000,
+        "cash": 0,
+        "assets": -405000,
+        "liabilities": 0,
+        "equity": -405000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D049",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Event staff payroll.",
+      "answer": "Classify €80,000 event-delivery staff as direct service cost of sales.",
+      "evidence": [
+        "Payroll, bonuses and contractors: payroll schedule",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Classify €80,000 event-delivery staff as direct service cost of sales.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Classify €80,000 event-delivery staff as direct service cost of sales. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -80000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": -80000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D050",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Sales team payroll.",
+      "answer": "Classify €72,000 sales payroll as operating sales expense.",
+      "evidence": [
+        "Payroll, bonuses and contractors: payroll schedule",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D051",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Office payroll.",
+      "answer": "Classify €96,000 office and finance payroll as administrative expense.",
+      "evidence": [
+        "Payroll, bonuses and contractors: payroll schedule",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D052",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Rent.",
+      "answer": "Classify €48,000 rent as operating expense.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D053",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Marketing.",
+      "answer": "Classify €55,000 marketing as operating expense.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D054",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Software.",
+      "answer": "Classify €16,000 software as operating expense.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D055",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Utilities.",
+      "answer": "Classify €12,000 utilities as operating expense.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D056",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Depreciation.",
+      "answer": "Recognize €24,000 depreciation expense and accumulated depreciation.",
+      "evidence": [
+        "Assets, repairs and leases: asset register and invoices",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Recognize €24,000 depreciation expense and accumulated depreciation.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Recognize €24,000 depreciation expense and accumulated depreciation. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -24000,
+        "cash": 0,
+        "assets": -24000,
+        "liabilities": 0,
+        "equity": -24000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D057",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Bad receivable.",
+      "answer": "Recognize €18,000 bad-debt expense/write-off against R-17.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Recognize €18,000 bad-debt expense/write-off against R-17.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Recognize €18,000 bad-debt expense/write-off against R-17. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -18000,
+        "cash": 0,
+        "assets": -18000,
+        "liabilities": 0,
+        "equity": -18000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D058",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Damaged stock.",
+      "answer": "Recognize €22,000 inventory write-down for unsaleable stock.",
+      "evidence": [
+        "Warehouse count: 31 August physical count and disposal evidence",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Recognize €22,000 inventory write-down for unsaleable stock.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Recognize €22,000 inventory write-down for unsaleable stock. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -22000,
+        "cash": 0,
+        "assets": -22000,
+        "liabilities": 0,
+        "equity": -22000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D059",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Probable legal claim.",
+      "answer": "Recognize €25,000 provision for the probable former-employee claim.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Recognize €25,000 provision for the probable former-employee claim.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Recognize €25,000 provision for the probable former-employee claim. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -25000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 25000,
+        "equity": -25000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D060",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Insurance consumed.",
+      "answer": "Insurance expense is €0 because no reliable insurance evidence exists.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D061",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Unpaid interest.",
+      "answer": "Accrue €2,000 unpaid interest payable.",
+      "evidence": [
+        "Loans, owner card and legal problems: bank/legal evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D062",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Unpaid payroll.",
+      "answer": "Accrue €32,000 payroll payable: €15,000 opening plus €248,000 expense less €231,000 paid.",
+      "evidence": [
+        "Payroll, bonuses and contractors: payroll schedule",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D063",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Unpaid suppliers.",
+      "answer": "Recognize €126,000 supplier payable, confirmed by suppliers.",
+      "evidence": [
+        "Purchases invoices and goods received: supplier invoices and confirmations",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D064",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Delivered NorthStar contract.",
+      "answer": "Recognize €180,000 NorthStar revenue on acceptance.",
+      "evidence": [
+        "Contracts, returns and angry customers: signed/accepted customer evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Recognize €180,000 NorthStar revenue on acceptance.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Recognize €180,000 NorthStar revenue on acceptance. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": 180000,
+        "cash": 0,
+        "assets": 180000,
+        "liabilities": 0,
+        "equity": 180000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D065",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Delivered Freedom contract.",
+      "answer": "Recognize €200,000 Freedom revenue on acceptance.",
+      "evidence": [
+        "Contracts, returns and angry customers: signed/accepted customer evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Recognize €200,000 Freedom revenue on acceptance.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Recognize €200,000 Freedom revenue on acceptance. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": 200000,
+        "cash": 0,
+        "assets": 200000,
+        "liabilities": 0,
+        "equity": 200000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D066",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Completed Phoenix event.",
+      "answer": "Recognize €100,000 Phoenix revenue on completion.",
+      "evidence": [
+        "Contracts, returns and angry customers: signed/accepted customer evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Recognize €100,000 Phoenix revenue on completion.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Recognize €100,000 Phoenix revenue on completion. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": 100000,
+        "cash": 0,
+        "assets": 100000,
+        "liabilities": 0,
+        "equity": 100000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D067",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Delivered Liberty order.",
+      "answer": "Recognize €120,000 Liberty revenue on delivery.",
+      "evidence": [
+        "Contracts, returns and angry customers: signed/accepted customer evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Recognize €120,000 Liberty revenue on delivery.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Recognize €120,000 Liberty revenue on delivery. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": 120000,
+        "cash": 0,
+        "assets": 120000,
+        "liabilities": 0,
+        "equity": 120000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D068",
+      "category": "classification",
+      "reviewTier": "material_judgment",
+      "question": "Classify Undelivered September events.",
+      "answer": "Do not recognize September event revenue at 31 August; retain €90,000 deposits as liabilities.",
+      "evidence": [
+        "Contracts, returns and angry customers: signed/accepted customer evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Do not recognize September event revenue at 31 August; retain €90,000 deposits as liabilities.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Do not recognize September event revenue at 31 August; retain €90,000 deposits as liabilities. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -90000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 90000,
+        "equity": -90000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D069",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Loan principal payment.",
+      "answer": "Classify €19,000 loan principal payment as financing cash flow.",
+      "evidence": [
+        "Loans, owner card and legal problems: bank/legal evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D070",
+      "category": "classification",
+      "reviewTier": "operational",
+      "question": "Classify Equipment purchase.",
+      "answer": "Classify €80,000 equipment purchases as investing cash flow/PPE additions.",
+      "evidence": [
+        "Assets, repairs and leases: asset register and invoices",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D071",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Closing bad-debt allowance/write-off and document the basis.",
+      "answer": "Write off €18,000 R-17; liquidation notice confirms no recovery at reporting date.",
+      "evidence": [
+        "Contracts, returns and angry customers: signed/accepted customer evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Write off €18,000 R-17; liquidation notice confirms no recovery at reporting date.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Write off €18,000 R-17; liquidation notice confirms no recovery at reporting date. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -18000,
+        "cash": 0,
+        "assets": -18000,
+        "liabilities": 0,
+        "equity": -18000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D072",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Damaged inventory write-off and document the basis.",
+      "answer": "Write down €22,000 wet basement stock to nil; exclude future €2,000 disposal cost from this period absent an obligation.",
+      "evidence": [
+        "Warehouse count: 31 August physical count and disposal evidence",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Write down €22,000 wet basement stock to nil; exclude future €2,000 disposal cost from this period absent an obligation.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Write down €22,000 wet basement stock to nil; exclude future €2,000 disposal cost from this period absent an obligation. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -22000,
+        "cash": 0,
+        "assets": -22000,
+        "liabilities": 0,
+        "equity": -22000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D073",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Legal provision and document the basis.",
+      "answer": "Provide €25,000 for probable employee claim, using counsel best estimate.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Provide €25,000 for probable employee claim, using counsel best estimate.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Provide €25,000 for probable employee claim, using counsel best estimate. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -25000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 25000,
+        "equity": -25000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D074",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Period depreciation and document the basis.",
+      "answer": "Use independent schedule depreciation of €24,000.",
+      "evidence": [
+        "Assets, repairs and leases: asset register and invoices",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Use independent schedule depreciation of €24,000.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Use independent schedule depreciation of €24,000. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -24000,
+        "cash": 0,
+        "assets": -24000,
+        "liabilities": 0,
+        "equity": -24000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D075",
+      "category": "estimation",
+      "reviewTier": "material_judgment",
+      "question": "Estimate Closing inventory and document the basis.",
+      "answer": "Closing inventory is €112,000: €80,000 opening + €459,000 purchases − €405,000 consumption − €22,000 write-down. Physical/system-count variance €9,000 remains unresolved.",
+      "evidence": [
+        "Warehouse count: 31 August physical count and disposal evidence",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "medium",
+      "aiProposal": "Initial AI proposal: Closing inventory is €112,000: €80,000 opening + €459,000 purchases − €405,000 consumption − €22,000 write-down. Physical/system-count variance €9,000 remains unresolved.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Closing inventory is €112,000: €80,000 opening + €459,000 purchases − €405,000 consumption − €22,000 write-down. Physical/system-count variance €9,000 remains unresolved. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -22000,
+        "cash": 0,
+        "assets": -22000,
+        "liabilities": 0,
+        "equity": -22000
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D076",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Closing receivables and document the basis.",
+      "answer": "Closing net receivables are €168,000: gross €186,000 less €18,000 R-17 write-off.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D077",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Repair versus improvement amount and document the basis.",
+      "answer": "Repair expense is €10,000; no improvement element is supported.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D078",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Insurance expense and document the basis.",
+      "answer": "Insurance expense is €0; no supporting policy or payment was found.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "D079",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Interest payable and document the basis.",
+      "answer": "Interest payable is €2,000: €12,000 expense less €10,000 paid.",
+      "evidence": [
+        "Loans, owner card and legal problems: bank/legal evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D080",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Accrued payroll and document the basis.",
+      "answer": "Accrued payroll is €32,000.",
+      "evidence": [
+        "Payroll, bonuses and contractors: payroll schedule",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D081",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Customer deposit liability and document the basis.",
+      "answer": "Customer deposit liability is €90,000 for September work.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D082",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate PPE closing cost and document the basis.",
+      "answer": "Closing PPE gross cost is €260,000.",
+      "evidence": [
+        "Assets, repairs and leases: asset register and invoices",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D083",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Accumulated depreciation and document the basis.",
+      "answer": "Closing accumulated depreciation is €69,000: €45,000 opening + €24,000.",
+      "evidence": [
+        "Assets, repairs and leases: asset register and invoices",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D084",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Supplier payable and document the basis.",
+      "answer": "Supplier payable is €126,000.",
+      "evidence": [
+        "Purchases invoices and goods received: supplier invoices and confirmations",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D085",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Closing loan and document the basis.",
+      "answer": "Closing loan principal is €131,000.",
+      "evidence": [
+        "Loans, owner card and legal problems: bank/legal evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D086",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Physical COGS and document the basis.",
+      "answer": "Physical materials COGS is €405,000.",
+      "evidence": [
+        "Warehouse count: 31 August physical count and disposal evidence",
+        "Purchases invoices and goods received: supplier invoices and confirmations"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D087",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Service direct payroll and document the basis.",
+      "answer": "Service direct payroll is €80,000.",
+      "evidence": [
+        "Payroll, bonuses and contractors: payroll schedule",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D088",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Owner distributions and document the basis.",
+      "answer": "Owner distributions are €110,000.",
+      "evidence": [
+        "Loans, owner card and legal problems: bank/legal evidence",
+        "Bank export August: third-party bank record"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D089",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Net profit and document the basis.",
+      "answer": "Corrected profit is €65,000.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D090",
+      "category": "estimation",
+      "reviewTier": "operational",
+      "question": "Estimate Closing cash and document the basis.",
+      "answer": "Closing cash is €60,000.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D091",
+      "category": "board_decision",
+      "reviewTier": "material_judgment",
+      "question": "Approve corrected accounts before valuation",
+      "answer": "Approve corrected accounts subject to the €9,000 inventory-control investigation and evidence limitations.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Approve corrected accounts subject to the €9,000 inventory-control investigation and evidence limitations.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Approve corrected accounts subject to the €9,000 inventory-control investigation and evidence limitations. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "changedFromAI": false
+    },
+    {
+      "id": "D092",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Freeze owner-card access",
+      "answer": "Freeze owner-card access immediately and require two-authoriser controls.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D093",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Move September deposits to contract liabilities",
+      "answer": "Move €90,000 September deposits to contract liabilities.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D094",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Begin weekly 13-week cash forecast",
+      "answer": "Begin a weekly rolling 13-week cash forecast.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D095",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Stop credit sales to insolvent/high-risk customers",
+      "answer": "Stop credit sales to insolvent/high-risk customers pending credit approval.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D096",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Dispose of damaged stock",
+      "answer": "Dispose of the wet stock after an approved disposal plan; do not sell it.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D097",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Investigate management override and duplicate sources",
+      "answer": "Investigate management override, duplicate sources and the €9,000 stock variance.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D098",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Renegotiate supplier terms",
+      "answer": "Renegotiate supplier terms because €126,000 is unpaid while cash is only €60,000.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D099",
+      "category": "board_decision",
+      "reviewTier": "operational",
+      "question": "Continue core Finally Single and event operations",
+      "answer": "Continue core box and event operations under cash, credit and delivery controls.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "D100",
+      "category": "board_decision",
+      "reviewTier": "material_judgment",
+      "question": "Use claimed management profit for earn-out",
+      "answer": "Do not use claimed €312,000 management profit for earn-out; use corrected €65,000 subject to final diligence.",
+      "evidence": [
+        "Bank export August: third-party bank record",
+        "Board order: evidence hierarchy and reporting basis"
+      ],
+      "confidence": "high",
+      "aiProposal": "Initial AI proposal: Do not use claimed €312,000 management profit for earn-out; use corrected €65,000 subject to final diligence.",
+      "independentChallenge": "Independent evidence-first review reaches the same treatment after prioritising bank, contract, supplier, warehouse and legal evidence over management labels.",
+      "studentReasoning": "Certified final answer: Do not use claimed €312,000 management profit for earn-out; use corrected €65,000 subject to final diligence. The conclusion follows the stated reporting-date cut-off and evidence hierarchy.",
+      "statementEffect": {
+        "profit": -247000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": -247000
+      },
+      "changedFromAI": false
+    }
+  ],
+  "schedules": {
+    "revenueAndReceivables": {
+      "revenue": 960000,
+      "openingReceivables": 35000,
+      "collections": 844000,
+      "grossReceivables": 186000,
+      "writeOff": 18000,
+      "netReceivables": 168000
+    },
+    "inventoryAndCOGS": {
+      "openingInventory": 80000,
+      "purchases": 459000,
+      "materialsConsumed": 405000,
+      "inventoryWriteDown": 22000,
+      "closingInventory": 112000,
+      "physicalCountNet": 121000,
+      "unresolvedVariance": 9000
+    },
+    "payroll": {
+      "expense": 248000,
+      "cashPaid": 231000,
+      "openingAccrual": 15000,
+      "closingAccrual": 32000,
+      "directServiceCost": 80000
+    },
+    "operatingExpenses": {
+      "rent": 48000,
+      "marketing": 55000,
+      "software": 16000,
+      "utilities": 12000,
+      "repairs": 10000,
+      "insurance": 0
+    },
+    "ppe": {
+      "openingCost": 180000,
+      "additions": 80000,
+      "closingCost": 260000,
+      "openingAccumulatedDepreciation": 45000,
+      "depreciation": 24000,
+      "closingAccumulatedDepreciation": 69000,
+      "netPPE": 191000
+    },
+    "debt": {
+      "openingPrincipal": 100000,
+      "newBorrowing": 50000,
+      "principalPaid": 19000,
+      "closingPrincipal": 131000,
+      "interestExpense": 12000,
+      "interestPaid": 10000,
+      "interestPayable": 2000
+    },
+    "equity": {
+      "openingEquity": 170000,
+      "profit": 65000,
+      "distributions": 110000,
+      "closingEquity": 125000
+    }
+  },
+  "statements": {
+    "profitAndLoss": {
+      "revenue": 960000,
+      "materialsCOGS": 405000,
+      "directServicePayroll": 80000,
+      "grossProfit": 475000,
+      "salesPayroll": 72000,
+      "officePayroll": 96000,
+      "rent": 48000,
+      "marketing": 55000,
+      "software": 16000,
+      "utilities": 12000,
+      "repairs": 10000,
+      "depreciation": 24000,
+      "badDebt": 18000,
+      "inventoryWriteDown": 22000,
+      "legalProvision": 25000,
+      "interestExpense": 12000,
+      "profit": 65000
+    },
+    "cashFlow": {
+      "openingCash": 80000,
+      "customerCollections": 899000,
+      "supplierPayments": -378000,
+      "payrollPaid": -231000,
+      "operatingExpensesPaid": -141000,
+      "interestPaid": -10000,
+      "netOperatingCashFlow": 139000,
+      "capitalExpenditure": -80000,
+      "netInvestingCashFlow": -80000,
+      "newBorrowing": 50000,
+      "principalRepayment": -19000,
+      "ownerDistributions": -110000,
+      "netFinancingCashFlow": -79000,
+      "netChangeCash": -20000,
+      "closingCash": 60000
+    },
+    "balanceSheet": {
+      "cash": 60000,
+      "tradeReceivables": 168000,
+      "inventory": 112000,
+      "netPPE": 191000,
+      "totalAssets": 531000,
+      "tradePayables": 126000,
+      "payrollPayable": 32000,
+      "interestPayable": 2000,
+      "contractLiabilities": 90000,
+      "legalProvision": 25000,
+      "loan": 131000,
+      "totalLiabilities": 406000,
+      "equity": 125000,
+      "totalLiabilitiesAndEquity": 531000
+    }
+  },
+  "reconciliations": [
+    {
+      "name": "Balance sheet",
+      "difference": 0
+    },
+    {
+      "name": "Cash: bank and cash-flow roll-forward",
+      "difference": 0
+    },
+    {
+      "name": "Revenue and receivables",
+      "difference": 0
+    },
+    {
+      "name": "Inventory and COGS accounting roll-forward",
+      "difference": 0,
+      "note": "€9,000 difference to physical/system count is unresolved and disclosed."
+    },
+    {
+      "name": "PPE and accumulated depreciation",
+      "difference": 0
+    },
+    {
+      "name": "Debt, interest and payable",
+      "difference": 0
+    },
+    {
+      "name": "Equity roll-forward",
+      "difference": 0
+    }
+  ],
+  "uncertainties": [
+    {
+      "item": "Warehouse-count difference",
+      "amount": 9000,
+      "detail": "Physical/system count supports €121,000 net saleable stock, €9,000 above accounting roll-forward. Investigate purchase, consumption and count records."
+    },
+    {
+      "item": "Stock disposal",
+      "amount": 2000,
+      "detail": "Independent quote received after reporting date. No current obligation is evidenced; exclude from provision."
+    },
+    {
+      "item": "Insurance",
+      "amount": 0,
+      "detail": "No insurance policy, payment or coverage-period evidence supplied."
+    }
+  ],
+  "boardRecommendation": {
+    "recommendation": "Approve corrected accounts for valuation only after investigating the €9,000 stock variance. Continue core operations with immediate cash, credit and owner-spend controls.",
+    "immediateActions": [
+      "Freeze owner cards",
+      "Move September deposits to contract liabilities",
+      "Start 13-week cash forecast",
+      "Tighten credit control",
+      "Investigate warehouse and management overrides"
+    ]
+  }
+}
